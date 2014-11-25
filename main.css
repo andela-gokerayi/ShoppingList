@@ -1,0 +1,120 @@
+
+body {
+    background: url("trolley.jpg");
+    background-repeat: no-repeat;
+    font: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+}
+
+#wrapper {
+    width:450px;
+    height: 200px;
+    margin:10px 550px 0;
+    padding:20px;
+    border-radius: 5px;
+    box-shadow: red;
+}
+
+h1 {
+    color: #D82D2D;
+    margin: 10px 0 60px 0;
+    padding: 0px;
+    font-size: 40px;
+    text-align:center;
+    font-style: italic;
+}
+
+input#item {
+    float:left;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 20px
+}
+
+ul {
+    list-style-type:none;
+    list-style-position:outside;
+    margin:10px 0px;
+    padding:0px;
+    clear:both;
+}
+
+li {
+    background: #fff;
+    margin:5px 0px;
+    line-height:1.6;
+    padding:10px;
+    border:#222 solid 1px;
+}
+
+li a {
+    font-size:small;
+}
+
+form a {
+    border-radius: 4px;
+    cursor: pointer;
+    float:right;
+    font: 11px sans-serif;
+    margin: 0;
+    margin-top:2px;
+    overflow: visible;
+    height:17px;
+    padding:5px 5px 0 5px;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: #1758E5;
+    border: 1px solid #1D5837;
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 #1D5837;
+}
+
+form a:hover {
+    background-color: #71D09B;
+    border: 1px solid #1D5837;
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 #1D5837;
+}
+
+form a:active {
+    border-color: #1D5837;
+    color: #FFFFFF;
+    text-shadow: none;
+}
+
+form a.delete {
+    background-color: #CD0000;
+    border: 1px solid #890000;
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 #890000;
+    margin-top:0px;
+    height:17px;
+}
+
+form a.delete:hover {
+    background-color: #FF5656;
+    border: 1px solid #890000;
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 #890000;
+}
+
+form a.delete:active {
+    border-color: #890000;
+    color: #FFFFFF;
+    text-shadow: none;
+}
+
+h3 {
+  font-size: 25px;
+  font-style: italic;
+  color: #666;
+}
+
+.purchase {
+  border: thin;
+  border-radius: 9px;
+}
+
+footer {
+    margin-top: 350px;
+    text-align: center;
+}
