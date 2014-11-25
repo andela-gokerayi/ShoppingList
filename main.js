@@ -16,7 +16,7 @@ initialize: function initializeForm() {
         }
     });
 
-      function shortlist () {
+      function shoppingList () {
         if (itemInput.val() === '') {
             return;
         };
@@ -28,7 +28,7 @@ initialize: function initializeForm() {
         itemInput.val("");
 
         // create a list item and checkbox, assigning an id to it.
-        var listItem = $("<li><input type='checkbox' name=" + itemToBuy + " value=" + itemToBuy + "> " + itemToBuy + " <a class='delete' href='#'><strong>-</strong> Delete</a></li>");
+         var listItem = $("<li><input type='checkbox' name=" + itemToBuy + " value=" + itemToBuy + "> " + itemToBuy + " <a class='delete' href='#'><strong>-</strong> Delete</a></li>");
         listItem.attr("id", "item[" + itemCount+++"]");
         addItem(listItem);
 
