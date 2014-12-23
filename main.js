@@ -1,13 +1,10 @@
 
 var shoppyLee = {
 
-initialize: function initializeForm() {
-
-    // initialize the app
+  initialize: function initializeForm() {
     var itemCount = 0;
     var itemInput = $("input#item");
     itemInput.val("");
-
     //define what happens when we click the "Add Item" link
     $("a#add-item").click(shoppingList);
     $("#item").keydown(function (enter) {
@@ -16,7 +13,7 @@ initialize: function initializeForm() {
         }
     });
 
-      function shortlist () {
+      function shoppingList () {
         if (itemInput.val() === '') {
             return;
         };
